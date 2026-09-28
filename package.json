@@ -1,0 +1,19 @@
+{
+  "name": "goit-advancedjs-hw-05",
+  "version": "1.0.0",
+  "description": "TypeScript dev environment setup",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "tsc",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "keywords": [],
+  "author": "Shavlak Maryna <shavlakmaryna@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^1.0.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.9.3"
+  }
+}
